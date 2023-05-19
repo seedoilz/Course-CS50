@@ -50,9 +50,6 @@ def load_data(directory):
                 movies[row["movie_id"]]["stars"].add(row["person_id"])
             except KeyError:
                 pass
-    print(movies)
-    print(people)
-    print()
 
 
 def main():
